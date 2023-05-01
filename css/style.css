@@ -17,15 +17,15 @@ a{
 }
 .header{
   background-color: #727525;
-  background-image: url(bg.png);
+  background-image: url(bg1.png);
   padding: 50px;
   height: 200px;
   text-align: center;
 }
 .header h1{
   font-size: 50px;
-  color: rgb(160, 136, 64);
-  text-shadow: 1px 1px 1px black, 0 0 25px rgb(224, 162, 235), 0 0 5px rgb(147, 147, 180);
+  color: #253439;
+  text-shadow: 1px 1px 1px black, 0 0 25px #7C898B, 0 0 5px rgb(147, 147, 180);
 }
 .topnav{
   overflow: hidden;
@@ -35,13 +35,13 @@ a{
 .topnav a{
   float: left;
   display: block;
-  color: #d5b6b6;
+  color: #F8F7F4;
   padding: 14px 16px;
   text-decoration: none;
 }
 .topnav a:hover{
   background-color: rgb(255, 255, 255);
-  color: black;
+  color: #253439;
 }
 .leftcolumn{
   float: left;
@@ -53,7 +53,7 @@ a{
   padding-left: 20px;
 }
 .card{
-  background-color: rgba(173, 104, 58, 0.932);
+  background-color: #ad683aee  ;
   padding:20px;
   margin-top: 20px;
   box-shadow: 2px 20x #ddd;
@@ -64,7 +64,7 @@ a{
 }
 .card h2{
   font-weight: bold;
-  color: wheat;
+  color: #f5deb3;
   text-shadow: 2px 2px #9c7272;
 }
 .card p{
@@ -78,7 +78,7 @@ a{
   margin-top: 20px;  
 }
 .post-img:hover{
-  box-shadow: 0 4px 8px 0 rgba(238, 106, 106, 0.2), 0 6px 20px 0 rgba(243, 99, 99, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(40, 40, 40, 0.578), 0 6px 20px 0 #253439;
 }
 .row::after{
   content:"";
