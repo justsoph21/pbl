@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+  body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 0;
+    background-color: #a56d6d;
+    background-image: url(MicrosoftTeams-image\ \(9\).png);
+  }
+  .header {
+    background-color: #f1f1f1;
+    padding: 25px;
+    height: 100px;
+    text-align: center;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(69, 41, 4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .leftcolumn {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  .column{
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+  }
+  .rightcolumn{
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+  }
+  .card{
+    background-color: #ad683aee  ;
+    padding:20px;
+    margin-top: 20px;
+    box-shadow: 2px 20x #ddd;
+    border-radius: 10px;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
