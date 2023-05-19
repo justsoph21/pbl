@@ -53,6 +53,35 @@
     display: table;
     clear: both;
   }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 20px;
+  }
+  
+  .footer i {
+    color: #053d07;
+  }
+  
+  .footer-list {
+    margin: 20px;
+  }
+  
+  .footer-list a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-right: 2px solid #6e4f4f;
+  }
+  
+  .footer-list a:last-child {
+    border-right: none;
+  }
+  
+  .footer-list a:hover {
+    color: #053d07;
+  }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width:600px) {

@@ -9,7 +9,7 @@
     padding: 10px;
     margin: 0;
     background-color: #a56d6d;
-    background-image: url(MicrosoftTeams-image\ \(9\).png);
+    background-image: url(MicrosoftTeams-image\ \(13\).png);
   }
   .header {
     background-color: #f1f1f1;
@@ -36,20 +36,10 @@
     background-color: #ddd;
     color: black;
   }
-  .leftcolumn {
+  .column {
     float: left;
     width: 33.33%;
     padding: 15px;
-  }
-  .column{
-    float: left;
-    width: 33.33%;
-    padding: 25px;
-  }
-  .rightcolumn{
-    float: left;
-    width: 33.33%;
-    padding: 25px;
   }
   .card{
     background-color: #ad683aee  ;

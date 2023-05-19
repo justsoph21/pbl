@@ -8,7 +8,8 @@ body{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 10px;
   margin: 0;
-  background-image: url(img.jpg) ;
+  background-color: white;
+  background-image: url(MicrosoftTeams-image\ \(13\).png);
 }
 a{
   text-decoration: none;
@@ -16,7 +17,7 @@ a{
 }
 .header{
   background-color: #727525;
-  background-image: url(bg\ img.jpg);
+  background-image: url(background.png);
   padding: 50px;
   height: 200px;
   text-align: center;
@@ -28,7 +29,7 @@ a{
 }
 .topnav{
   overflow: hidden;
-  background-color: #452904;
+  background-color: rgb(69, 41, 4);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .topnav a{
@@ -52,8 +53,7 @@ a{
   padding-left: 20px;
 }
 .card{
-  background-color: #452904  ;
-  color: #F8F7F4;
+  background-color: #ad683aee  ;
   padding:20px;
   margin-top: 20px;
   box-shadow: 2px 20x #ddd;
@@ -82,34 +82,38 @@ a{
 }
 .row::after{
   content:"";
-  display: table;
+  display: block;
   clear: both;
 }
-.footer{
+.footer {
   padding: 20px;
   text-align: center;
   background-color: #ddd;
   margin-top: 20px;
 }
-.footer i{
+
+.footer i {
   color: #053d07;
 }
-.footer-list{
+
+.footer-list {
   margin: 20px;
 }
-.footer-list a{
+
+.footer-list a {
   text-decoration: none;
   padding: 10px;
   font-weight: bold;
   border-right: 2px solid #6e4f4f;
 }
-.footer-list a:last-child{
+
+.footer-list a:last-child {
   border-right: none;
 }
-.footer-list a:hover{
+
+.footer-list a:hover {
   color: #053d07;
 }
-
 /*About Page*/
 .member-cotainer{
   position: relative;

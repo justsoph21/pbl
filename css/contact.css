@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin: 0;
+  background-image: url(MicrosoftTeams-image\ \(13\).png);
+}
+
+.header {
+  background-image: url(background.png);
+  padding: 25px;
+  height: 100px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #253439;
+  text-shadow: 1px 1px 1px black, 0 0 25px #7C898B, 0 0 5px rgb(147, 147, 180);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(69, 41, 4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #F8F7F4;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #253439;
+}
+
+.leftcolumn {
+  float: left;
+  width: 50%
+}
+
+.rightcolumn {
+  float: left;
+  width: 50%;
+}
+
+.card {
+  box-shadow: 2px 20x #ddd;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-weight: bold;
+  color: #f5deb3;
+  text-shadow: 2px 2px #9c7272;
+}
+
+.card p {
+  color: rgb(255, 255, 255);
+  line-height: 2;
+}
+
+.post-img {
+  background-color: #f1f1f1;
+  width: 99%;
+  margin-top: 20px;
+  border-radius: 26px;
+}
+
+.post-img:hover {
+  box-shadow: 0 4px 8px 0 rgba(40, 40, 40, 0.578), 0 6px 20px 0 #253439;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+  margin-top: 20px;
+}
+
+.footer i {
+  color: #053d07;
+}
+
+.footer-list {
+  margin: 20px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  border-right: 2px solid #6e4f4f;
+}
+
+.footer-list a:last-child {
+  border-right: none;
+}
+
+.footer-list a:hover {
+  color: #053d07;
+}
